@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Calculation of the PI number using the Monte Carlo method</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="myCanvas" width="800" height="800" style="border:1px solid green">
-    Your browser does not support the canvas element.
-    </canvas>
-    <div>
-        <button id="btn-stone-throw" >Throw Stones</button>
-        <button id="btn-stone-clear">Clear Stones</button>
-        <button id="btn-compute-pi" >Compute PI</button>
+    <div class="wrapper">
+        <canvas id="myCanvas" width="800" height="800" style="border:1px solid green">
+            Your browser does not support the canvas element.
+        </canvas>
+        <div>
+            <button id="btn-stone-throw" class="btn-green">Throw Stones</button>
+            <button id="btn-compute-pi" class="btn-green">Compute PI</button>
+            <button id="btn-stone-clear" class="btn-red">Clear Stones</button>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>

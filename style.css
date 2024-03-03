@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 24px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 40px 12px;
+    padding: 8px 24px;
+    border-radius: 6px;   
+    border: 0;
+}
+
+.btn-red {
+    background-color: #EC5564;
+}
+
+.btn-red:hover {
+    background-color: #ee6371;
+}
+
+.btn-green {
+    background-color: #92cf54;
+}
+
+.btn-green:hover {
+    background-color: #9ED36A;
+}
